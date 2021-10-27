@@ -28,4 +28,8 @@ public class UniqueDupes {
     public HashSet getUniques() {
         return uniques;
     }
+
+    public String toString() {
+        return "Original List : " + line + "\nUniques : " + uniques + "\nDupes : " + dupes + "\n";
+    }
 }
